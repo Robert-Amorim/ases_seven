@@ -1,4 +1,4 @@
-
+import edgar from "../../../public/edigar_alves.jpg";
 
 export default function ProfileCard() {
     const usuario = {
@@ -15,7 +15,7 @@ export default function ProfileCard() {
     <div className="bg-white rounded-2xl shadow p-6 flex flex-col items-center gap-2">
       {/* Avatar */}
       <img
-       src="../../public/edigar_alves.jpg"
+       src={edgar}
         alt={nome}
         className="w-20 h-20 rounded-full object-cover shadow mb-2"
       />

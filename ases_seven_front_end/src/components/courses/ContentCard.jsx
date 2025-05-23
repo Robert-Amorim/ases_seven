@@ -1,5 +1,5 @@
+import capa from "../../../public/cursos.jpg"; // Importando a imagem da capa
 export default function ContentCard({ item }) {
-    const capa = "../../public/cursos.jpg";
   return (
     <div className="bg-stone-100 rounded-xl shadow hover:shadow-lg transition">
       <img

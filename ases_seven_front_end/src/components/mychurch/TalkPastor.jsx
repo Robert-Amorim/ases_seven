@@ -1,3 +1,4 @@
+import edgar from "../../../public/edigar_alves.jpg";
 export default function TalkPastor() {
   return (
     <div className="w-full bg-white border border-yellow-300 rounded-xl p-4 shadow">
@@ -6,7 +7,7 @@ export default function TalkPastor() {
       </h4>
       <div className="flex items-center mb-2">
         <img
-          src="../../public/edigar_alves.jpg"
+          src={edgar}
           alt="Pr. Edigar Alves"
           className="rounded-full w-10 h-10 mr-2"
         />

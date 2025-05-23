@@ -4,7 +4,7 @@ import 'swiper/css/autoplay';
 import { Autoplay } from 'swiper/modules';
 
 export default function CarrosselFotos() {
-  const fotos = Array.from({ length: 14 }, (_, idx) => `../../public/foto${idx + 1}.jpg`);
+const fotos = Array.from({ length: 14 }, (_, idx) => `/foto${idx + 1}.jpg`);
 
   return (
     <Swiper
