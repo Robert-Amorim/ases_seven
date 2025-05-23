@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import logo from "../../../public/logo_sem_fundo.png"; // Importando a imagem do logo
+import logo from "../../../public/logo_sem_fundo_1.png"; // Importando a imagem do logo
 
 export default function Header() {
   return (
