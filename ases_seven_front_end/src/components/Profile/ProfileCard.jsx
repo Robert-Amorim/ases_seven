@@ -1,4 +1,4 @@
-import edgar from "../../../public/edigar_alves.jpg";
+import edgar from "../../../public/Jose_Lopes.png";
 
 export default function ProfileCard() {
     const usuario = {

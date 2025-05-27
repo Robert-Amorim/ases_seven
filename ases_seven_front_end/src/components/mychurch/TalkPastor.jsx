@@ -1,4 +1,4 @@
-import edgar from "../../../public/edigar_alves.jpg";
+import edgar from "../../../public/Jose_Lopes.png";
 export default function TalkPastor() {
   return (
     <div className="w-full bg-white border border-yellow-300 rounded-xl p-4 shadow">
